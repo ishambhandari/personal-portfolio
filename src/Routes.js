@@ -5,7 +5,7 @@ import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 const Routes = () => (   
     <Switch>
-        <Route exact path = '/' component={Home} />
+        <Route exact path = '/personal-portfolio' component={Home} />
         <Route exact path = '/projects' component={About} />
         <Route exact path = '/contact' component={Contact} />
         <Route exact path = '/resume' component={Resume} />

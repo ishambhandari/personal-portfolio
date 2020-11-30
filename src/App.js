@@ -21,7 +21,7 @@ function App() {
         </Header>
         <Drawer title="Isham Bhandari">
             <Navigation>
-            <Link to='/'>Home</Link>
+            <Link to='/personal-portfolio'>Home</Link>
               <Link to='/about'>Projects</Link>
               <Link to='/resume'>Resume</Link>     
               <Link to='/contact'>Contact</Link> 
