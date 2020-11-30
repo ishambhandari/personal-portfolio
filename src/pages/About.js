@@ -20,7 +20,7 @@ class About extends React.Component{
             else if(this.state.activeTab === 1){
                 return (
                     <div className='card-align'>
-                    <CardContent projectTitle='Personal Portfolio' projectText="This is a personal portfolio site." projectImg='https://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg' projectLink='https://github.com/ishambhandari/perosal-portfolio'/>
+                    <CardContent projectTitle='Personal Portfolio' projectText="This is a personal portfolio site." projectImg='https://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg' projectLink='https://github.com/ishambhandari/personal-portfolio'/>
                     <CardContent projectTitle='Javascript' projectText="Java Script project" projectImg='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png'projectLink='https://github.com/'/>
 
 
