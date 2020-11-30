@@ -19,7 +19,7 @@ class Resume extends Component{
                         <div style={{fontFamily:'Arial', paddingLeft:'2rem'}}>
                         <h2 style={{paddingTop: '2em'}}> Isham Bhandari</h2>
                         <h4 style={{color:'grey'}}>Developer</h4>
-                        <p>Hello!! I am Kathmandu based Python and Javascript developer. </p>
+                        <p>I am Kathmandu based Python and Javascript developer. </p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                         
                         <h5>Phone</h5>
@@ -29,7 +29,7 @@ class Resume extends Component{
                         <h5>Location</h5>
                         <p>Shantinagar, Kathmandu</p>
                         <h5>Web</h5>
-                        <p>test.com</p>
+                        <p>www.ishambhandari.github.io/personal-portfolio</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                         </div>
                     </Cell>
@@ -49,7 +49,7 @@ class Resume extends Component{
                         <Skills skill='Javascript' progress='60'/>
                         <Skills skill ='Bash Scripting' progress='65' />
                         <h2>Additional Experience</h2>
-                        <Experience startYear = '2017' endYear='2017' JobName='Asian Science Camp' JobDescription='Malaysia'/>
+                        <Experience startYear = 'August 17, 2017' endYear='August 25, 2017' JobName='Asian Science Camp' JobDescription='Malaysia'/>
                     </Cell>
                 </Grid>
                 

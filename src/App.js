@@ -2,6 +2,7 @@ import './App.css';
 import {Layout, Navigation, Drawer, Content, Header } from 'react-mdl'
 import Routes from './Routes.js'
 import {Link} from 'react-router-dom'
+import React from 'react'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import "@fortawesome/fontawesome-svg-core/styles.css";
 
