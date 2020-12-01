@@ -25,8 +25,9 @@ class App extends React.Component {
 
             </Navigation>
         </Header>
-        <Drawer title="Isham Bhandari">
-            <Navigation>
+    
+        <Drawer  title="Isham Bhandari" >
+            <Navigation className='drawer-option'>
             <Link to='/personal-portfolio' onClick={() => this.hideToggle()}>Home</Link>
               <Link to='/projects' onClick={() => this.hideToggle()}>Projects</Link>
               <Link to='/resume' onClick={() => this.hideToggle()}>Resume</Link>     
@@ -34,6 +35,7 @@ class App extends React.Component {
 
             </Navigation>
         </Drawer>
+        
         <Content>
             <div className="page-content" />
             <Routes />
