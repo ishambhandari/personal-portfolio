@@ -16,7 +16,17 @@ class Home extends React.Component{
                     <div className='banner-text'>
                         <h1>Developer</h1>
                         <hr />
-                        <p> HTML/CSS| Django | React | Bash Scripting | MySQL | PostGreSQl </p>
+                        {/* <Cell> */}
+                        <div className='p-tag'>
+                        {/* <p> HTML/CSS| Django | React | Bash Scripting | MySQL | PostGreSQl </p> */}
+                       
+                        <span> Django</span> 
+                        <span> React</span>
+                        <span> Bash scripting</span>    
+                        <span> MySQL</span>
+                        <span> PostGreSQl </span>
+                        </div>
+                        {/* </Cell> */}
                         <div className='social-icons'>
                             {/* Linkedin */}
                             <a href='https://www.linkedin.com/in/isham-bhandari-40977816a/' target='__blank' rel='noopener noreferer'>

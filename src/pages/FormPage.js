@@ -51,19 +51,19 @@ class FormPage extends React.Component{
                  <div className='right'>
                 <h2>Contact Me</h2>
                 <label value={this.state.name }></label>
-                <input type="text" className="field" placeholder="Your Name" onChange={this.handleChange }required />
+                <input type="text" className="field" placeholder="Your Name" onChange={this.handleChange }required style={{paddingRight:'10px'}}/>
 				<label value={this.state.email }></label>
-                <input type="text" className="field" placeholder="Your Email" onChange={this.handleChange }required />
+                <input type="text" className="field" placeholder="Your Email" onChange={this.handleChange }required style={{paddingRight:'10px'}}/>
 				{/* <label value={this.state.name }></label>
                 <input type="text" className="field" placeholder="Phone" onChange={this.handleChange }required /> */}
 				<label value={this.state.name }></label>
-                <textarea placeholder="Message" class="field" onChange={this.handleChange }required></textarea>
+                <textarea placeholder="Message" class="field" onChange={this.handleChange }required style={{paddingRight:'10px'}}></textarea>
 				<button className="btn" disabled={this.state.disabled}>Send</button>
                     </div>
                     
                 </div>
                 </div>
-                {this.state.emailSent === true && <p className="d-inline success-msg">Message Sent</p>}
+                {this.state.emailSent === true && <p className="success-msg">Message Sent</p>}
 
             </div>
             </form>
